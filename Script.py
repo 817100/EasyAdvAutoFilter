@@ -6,15 +6,15 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Mr_SPIDY'>Mʀ.SPIDY🕷</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Alone_XDs'>ꕶʜᴀᴅᴏꪝ</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
-✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
+✯ Bᴇꜱᴛ Fʀɪᴇɴᴅ: <a href='tg://settings'>Tʜɪꜱ Pᴇʀꜱᴏɴ</a>
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: Pʀɪᴠᴀᴛᴇ
 ✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]</b>"""
 
     SOURCE_TXT = """<b>Nᴏᴛᴇ:
-✭ Bᴏᴛ ɪs Rᴇᴅᴇsɪɢɴ ʙʏ <a href="https://t.me/Mr_SPIDY">Mʀ.SPIDY</a>
+✭ Bᴏᴛ ɪs Rᴇᴅᴇsɪɢɴ ʙʏ <a href="https://t.me/alone_xds">ꕶʜᴀᴅᴏꪝ</a>
 ✭ Sᴏᴜʀᴄᴇ - ɪᴛ's ᴀ ᴘʀɪᴠᴀᴛᴇ ʀᴇᴘᴏ
 ✭ ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ </b>"""
 
