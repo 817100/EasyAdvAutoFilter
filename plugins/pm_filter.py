@@ -1512,10 +1512,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔐 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
             
         ],[
+            InlineKeyboardButton('❗ Dɪsᴄʟᴀɪᴍᴇʀ ❗', callback_data='dicl_btn')
+            
+        ],[
             InlineKeyboardButton('♙ Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ ⊝', callback_data='close_data')
-        ],[
-            InlineKeyboardButton('❗ Dɪsᴄʟᴀɪᴍᴇʀ ❗', callback_data='dicl_btn')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1787,12 +1788,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/Mr_SPIDY")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/Shadow_XD_ChatBot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
-                InputMediaPhoto("hhttps://graph.org/file/48676d17d646e63d7e9bc.jpg")
+                InputMediaPhoto("https://graph.org/file/48676d17d646e63d7e9bc.jpg")
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
@@ -1814,13 +1815,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "chnl_info":
             btn = [[
-                    InlineKeyboardButton("🍀 Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🍀", url= GRP_LNK)
+                    InlineKeyboardButton("Rᴇǫᴜᴇꜱᴛ Cʜᴀɴɴᴇʟ 👾", url='https://t.me/https://t.me/+SJ8kahs9WUhkZWI1)
                 ],[
-                    InlineKeyboardButton("🍂 Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ 🍂", url=SPRT_CHNL)
-                ],[
-                    InlineKeyboardButton("🌼 Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ🌼", url='https://t.me/YourDemand3')
-                ],[
-                    InlineKeyboardButton("🥀 Mᴀɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 🥀", url=CHNL_LNK)
+                    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 💬", url='https://t.me/https://t.me/HelpDesk_XDs')
+               ],[
+                    InlineKeyboardButton("⌬ Bᴏᴛꜱ Uᴘᴅᴀᴛᴇꜱ ⌬", url=CHNL_LNK)
                 ],[
                     InlineKeyboardButton('❗❗ Dɪsᴄʟᴀɪᴍᴇʀ ❗❗', callback_data='dicl_btn')
                 ],[
@@ -1868,7 +1867,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/Mr_SPIDYBot")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/Shadow_XD_ChatBot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
