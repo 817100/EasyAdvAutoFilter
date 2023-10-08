@@ -26,7 +26,7 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/HelpDesk_XDs"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url="https://t.me/+5HbdF49JjnY4MTM9")
+                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/+-zSPDnReshc0OGI9")
                 ],[
                     InlineKeyboardButton('⚜️ Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟs ⚜️', callback_data="chnl_info")
                   ]]
@@ -46,7 +46,7 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('💸 Eᴀʀɴ Mᴏɴᴇʏ', callback_data="shortlink_info"),
-                    InlineKeyboardButton('🎭 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url="https://t.me/+5HbdF49JjnY4MTM9")
+                    InlineKeyboardButton('🎭 Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/+-zSPDnReshc0OGI9")
                 ],[
                     InlineKeyboardButton('⚠️ Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ', callback_data='about')
@@ -99,7 +99,7 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('💸 Eᴀʀɴ Mᴏɴᴇʏ', callback_data="shortlink_info"),
-                    InlineKeyboardButton('🎭 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url="https://t.me/+5HbdF49JjnY4MTM9")
+                    InlineKeyboardButton('🎭 Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/+-zSPDnReshc0OGI9")
                 ],[
                     InlineKeyboardButton('⚠️ Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ', callback_data='about')
@@ -158,7 +158,7 @@ async def start(client, message):
                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/HelpDesk_XDs'),
                           InlineKeyboardButton('Bᴏᴛs Uᴘᴅᴀᴛᴇs', url='https://t.me/Arsenal_Bots_Updates')
                        ],[
-                          InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="t.me/+5HbdF49JjnY4MTM9")
+                          InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ", url="t.me/Shadow_XD_ChatBot")
                          ]
                         ]
                     )
@@ -177,7 +177,7 @@ async def start(client, message):
                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/HelpDesk_XDs'),
                           InlineKeyboardButton('Bᴏᴛs Uᴘᴅᴀᴛᴇs', url='https://t.me/Arsenal_Bots_Updates')
                        ],[
-                          InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="https://t.me/+5HbdF49JjnY4MTM9")
+                          InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ", url="t.me/Shadow_XD_ChatBot")
                          ]
                         ]
                     )
@@ -337,7 +337,7 @@ async def start(client, message):
                       InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/HelpDesk_XDs'),
                       InlineKeyboardButton('Bᴏᴛs Uᴘᴅᴀᴛᴇs', url='https://t.me/Arsenal_Bots_Updates')
                    ],[
-                      InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="t.me/+5HbdF49JjnY4MTM9")
+                      InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ", url="t.me/Shadow_XD_ChatBot")
                      ]
                     ]
                 )
@@ -401,7 +401,7 @@ async def start(client, message):
                       InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/HelpDesk_XDs'),
                       InlineKeyboardButton('Bᴏᴛs Uᴘᴅᴀᴛᴇs', url='https://t.me/Arsenal_Bots_Updates')
                    ],[
-                      InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="t.me/+5HbdF49JjnY4MTM9")
+                      InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ", url="t.me/Shadow_XD_ChatBot")
                      ]
                     ]
                 )
@@ -463,7 +463,7 @@ async def start(client, message):
               InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/HelpDesk_XDs'),
               InlineKeyboardButton('Bᴏᴛs Uᴘᴅᴀᴛᴇs', url='https://t.me/Arsenal_Bots_Updates')
            ],[
-              InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="t.me/+5HbdF49JjnY4MTM9")
+              InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ", url="t.me/Shadow_XD_ChatBot")
              ]
             ]
         )
