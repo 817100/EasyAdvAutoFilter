@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '28839759'))
+API_HASH = environ.get('API_HASH', 'c5ec8c471ec25acc97db0f5089c7a63a')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -29,7 +29,7 @@ VRFIED_IMG = environ.get("VRFIED_IMG", "https://graph.org/file/8c1df9b6d6ba9ce0e
 VRFY_IMG = environ.get("VRFY_IMG", "https://graph.org/file/ca19ea1ba45d5ae9cc0ec.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '105377957').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1737202396').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -38,16 +38,16 @@ auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001883100756')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001813259061')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001648797360')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Team_XDs')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://filebotxds:filebotxds@clusterxds07.yl5t1nk.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "ClusterX0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
@@ -60,11 +60,11 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+5HbdF49JjnY4MTM9')
 SPRT_CHNL = environ.get('SPRT_CHNL', 'https://t.me/helpdesk_xds')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Team_XDs')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Arsenal_Bots_Updates')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Team_XDs')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Team_XDs')
-MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
+MSG_ALRT = environ.get('MSG_ALRT', 'Aʀꜱᴇɴᴀʟ Bᴏᴛᴢ ❣️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001813259061'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'HelpDesk_XDs')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
@@ -79,7 +79,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001768075000')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
