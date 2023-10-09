@@ -1815,7 +1815,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "chnl_info":
             btn = [[
-                    InlineKeyboardButton("Rᴇǫᴜᴇꜱᴛ Cʜᴀɴɴᴇʟ 👾", url='https://t.me/https://t.me/+SJ8kahs9WUhkZWI1)
+                    InlineKeyboardButton("Rᴇǫᴜᴇꜱᴛ Cʜᴀɴɴᴇʟ 👾", url='https://t.me/https://t.me/+SJ8kahs9WUhkZWI1')
                 ],[
                     InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 💬", url='https://t.me/https://t.me/HelpDesk_XDs')
                ],[
