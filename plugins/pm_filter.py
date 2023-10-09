@@ -1815,14 +1815,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "chnl_info":
             btn = [[
-                    InlineKeyboardButton("Rᴇǫᴜᴇꜱᴛ Cʜᴀɴɴᴇʟ 👾", url='https://t.me/https://t.me/+SJ8kahs9WUhkZWI1')
+                    InlineKeyboardButton("Rᴇǫᴜᴇꜱᴛ Cʜᴀɴɴᴇʟ 👾", url='https://t.me/+SJ8kahs9WUhkZWI1')
                 ],[
-                    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 💬", url='https://t.me/https://t.me/HelpDesk_XDs')
+                    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 💬", url='https://t.me/HelpDesk_XDs')
                ],[
                     InlineKeyboardButton("⌬ Bᴏᴛꜱ Uᴘᴅᴀᴛᴇꜱ ⌬", url=CHNL_LNK)
-                ],[
-                    InlineKeyboardButton('❗❗ Dɪsᴄʟᴀɪᴍᴇʀ ❗❗', callback_data='dicl_btn')
-                ],[
+              ],[
                     InlineKeyboardButton('♙ Hᴏᴍᴇ', callback_data='start'),
                     InlineKeyboardButton('Cʟᴏsᴇ ⊝', callback_data='close_data')
                 ]]
